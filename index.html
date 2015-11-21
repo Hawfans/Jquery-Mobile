@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Train for a Marathon</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="themes/blue.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="main.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- Start of first page -->
+<div data-role="page" id="Home">
+				
+   			<div data-role="header">
+				<img src="img/first.jpg" width="100%">
+			</div><!-- /header -->
+
+			<div data-role="main" class="ui-content">
+
+				<p>So you want to run a Marathon?</p>
+
+				<p>Just so you know what you are getting into. This might be the hardest thing that you have ever done. There is going to me sore muscles, blood, maybe even tears. When you cross that finish line though, it will all be worth it. If that does not deter you then just click that button below and let us get this show on the road.
+				<a href="#Equipment"  id="start" data-role="button" data-transition="flow">Click Here to Begin</a>
+			</div><!-- /content -->
+
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>
+		</div><!-- /footer -->	
+				
+</div><!-- /page -->
+		
+<!-- start of second page -->
+<div data-role="dialog" id="Equipment" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Equipment</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<img src ="img/equipment.jpg" width="100%">
+				<p>Oh you are still here perfect!</p>
+				<p>We are just going to make the a quick list of the things that are going to help you succeed in this great endeavour.</p>
+
+				<ul>
+					<li>Definitely need to invest in some decent shoes since you will be putting alot of miles on them.</li>
+					<li>Shorts</li>
+					<li>Breathable t-shirts</li>
+					<li>Good couple pairs of socks</li>
+					<li>Protein Gels (chocolate is my favourite)</li>
+					<li>Water Bottle</li>
+					<li>Something to Measure Distance (map my run is a great app)</li>
+				</ul>
+				<p>Some of the things on this list are not mandatory but will just make the experience more enjoyable. Plus getting new things makes it all that much more fun because you get to try out all the new equipment that you have bought and you will be that much more invested.</p>
+				<a href="#Home" data-role="button" class="back">Back</a>
+				<a href="#Scheduling" data-role="button" data-transition="pop" class="next">Next</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>
+		</div><!-- /footer -->	
+				
+</div><!-- /page -->
+
+<!-- start of third page -->
+<div data-role="dialog" id="Scheduling" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Scheduling</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>Okay we have our, equipment now we just need to figure out how many miles we need to start running. Luckily the internet is chalk full of examples of schedules which I have included a link to at the bottom of the page.</p>
+			<img src="img/schedule.png" width="100%">
+				<p>Before you go and select a schedule for yourself though, I would suggest taking a couple of 3 mile runs to figure out your per mile pace. With that information you will be able to pick a schedule that best fits your fitness level.
+				<p>Great Schedules <a href="http://www.runnersworld.com/marathon-training-plans/first-timers-marathon-plan">here</a></p>
+				<a href="#Equipment" data-role="button" class="back">Back</a>
+				<a href="#Partner" data-role="button" data-transition="fade" class="next">Next</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>
+		</div><!-- /footer -->	
+				
+</div><!-- /page -->
+
+<!-- start of fourth page -->
+<div data-role="dialog" id="Partner" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Partner Up</h1>
+			<img src="img/partner.jpg" width="100%">
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>Like I mentioned earlier there are gonna be days when you think you are too tired, too sore, or just don't want to go out and run because it's raining. That is why you need to get a partner. If you have someone to go through the bad days and good days with it will be much harder to skip, because they are depending on you and you are depending on them.</p>
+				<p>So if you can find someone anyone to run with do it!</p>
+				<a href="#Scheduling" data-role="button" class="back">Back</a>
+				<a href="#Diet" data-role="button" data-transition="slidefade" class="next">Next</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>
+			</div><!-- /footer -->	
+				
+</div><!-- /page -->
+
+<!-- start of fifth page -->
+<div data-role="dialog" id="Diet" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Diet</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>Since you are going to be running around 20 miles or more a week for 3 to four months you need to have some fuel to keep you going. That is where a balanced diet comes in. The day before big runs it is a good idea to carb up. The go to favourite is pasta for most runners. But try a couple different meal plans and go with whatever works best for you. I included a link at the bottom of the page to a website with alot more great information.</p>
+				<img src="img/pasta.jpg" width="100%">
+				<p>Alot more great information <a href="http://running.competitor.com/2013/11/nutrition/the-new-rules-of-marathon-nutrition_67841">here</a></p>
+				<a href="#Partner" data-role="button" class="back">Back</a>
+				<a href="#Races" data-role="button" data-transition="turn" class="next">Next</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>	
+		</div><!-- /footer -->	
+				
+</div><!-- /page -->
+
+<!-- start of sixth page -->
+<div data-role="dialog" id="Races" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Pre-Races</h1>
+			<img src="img/races.gif" width="100%">
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>I know you want to run a marathon so you think, "why should I enter a pity 10k?" Well I will tell you that it is for your own good. A marathon can be daunting to think about if it is your first race ever. That is why doing a couple of small runs are great. They kind of give you a taste of the experience to come. It is like a small mile stone and something within the first couple of months of training to work towards. Lastly it is great way to meet and network in the running community, some of the people will meet will have been doing this for years and may have some great tips on what to expect and will have equipment hacks. They are a very welcoming group so draw on these peoples experience and embrace the community. Plus if you do not have a running partner yet you may find someone else who is training for a marathon as well.</p>
+				
+				<a href="#Diet" data-role="button" class="back">Back</a>
+				<a href="#bigday" data-role="button" data-transition="slideup" class="next">Next</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li> 
+			</ul>
+			</div>	
+		</div><!-- /footer -->	
+				
+</div><!-- /page -->
+
+<!-- start of seventh page -->
+<div data-role="dialog" id="bigday" data-close-btn="false">
+
+		<div data-role="header">
+		<a href="#Home" class="ui-btn ui-icon-delete ui-corner-all ui-btn-icon-notext"></a>
+			<h1>Good Luck</h1>
+			<img src="img/marathon.jpg" width="100%">
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>Today is the day, you have come a long way and have run alot of miles so I only have a couple more tips for you. It is easy to get get caught up with all the other runners depending on where you are running your marathon there are going to be thousands maybe tens of thousands of people who are in this race. So keep your head about you and keep the pace you have been training for. If it feels too slow just remember that you still have 25 more miles ahead of you so do not fret. If you are comfortable with it sometimes they have pace runners with the appropriate minute per mile signs that keep that pace for the whole race. I could be a good way to meet some other runners and maybe make some friends to have a beer with afterwards. Take in all that excitement and cheers coming from thousands of people who come out to cheer on the runners.</p> 
+
+				<img src="img/finish.jpg" width="100%">
+
+				<p>You did it! Congratulations I knew you had it in you! </p>
+
+				<a href="#Races" data-role="button" class="back">Back</a>
+				<a href="#Home" data-role="button">Finish</a>
+			</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="#Home" data-role="button">Home</a></li>
+				<li><a href="#info" data-role="button">About</a></li>
+			</ul>
+			</div>
+		</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- start of info page -->	
+<div data-role="page" id="info">
+
+		<div data-role="header">
+			<h1>About Me</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+				<p>So a little about myself, I got into running several years ago and love to go out every now and again. I find it to be a great challenge to yourself where you are constantly trying to beat your best time. I have recently started learning development at Algonquin College and am in the first year of Mobile Application Design and Development. This course like running can be a challenge everyday where you are day and day out trying to do a better job on your current assignment then the last one. I hope you enjoyed the guide and that it inspired you to get out there and enjoy the world of running.</p>
+				<img src="img/IMG_2924.jpg" width="100%">
+		</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+				<a href="#Home" data-role="button">Home</a>
+				<a href="#info" data-role="button">About</a>
+		</div><!-- /footer -->
+
+</div><!-- /page -->
+</body>
+</html>
